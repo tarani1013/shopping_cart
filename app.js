@@ -5,9 +5,7 @@ const { body, validationResult, check } = require('express-validator')
 //
 //
 app.use(express.urlencoded({ extended: false }))
-// const items = require('./itemObj.js');
-// const cities = require('./city.js');
-// const couponcodes = require('./couponcode.js').couponcodes;
+
 const items = require('./sqlconnect.js').items;
 const cities = require('./sqlconnect.js').cities;
 const couponcodes = require('./sqlconnect.js').couponcodes;
