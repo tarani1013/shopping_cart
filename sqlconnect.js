@@ -13,8 +13,6 @@ pool.getConnection((err, connection) => {
     console.log('connected as id ' + connection.threadId);
 
 });
-// this promise helps  async  and also 2 functions then and catch
-//module.exports = pool.promise();
 //
 const items = new Map();
 const cities = new Map();
